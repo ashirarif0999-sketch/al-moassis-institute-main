@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import SuccessModal from '../components/SuccessModal';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -10,11 +11,12 @@ const Contact: React.FC = () => {
     course: 'Kids',
     message: ''
   });
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Supabase or API call logic would go here
-    alert("Thank you for your inquiry! We will get back to you shortly to schedule your demo classes.");
+    setIsModalOpen(true);
   };
 
   return (
@@ -150,6 +152,12 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
+      <SuccessModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title="Thank You!"
+        message="We have received your inquiry and will get back to you shortly to schedule your demo classes."
+      />
     </div>
   );
 };

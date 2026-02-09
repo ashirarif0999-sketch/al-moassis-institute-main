@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+html{
+  scrollbar-color: #1B5E20 transparent !important;
+  scrollbar-width: thin;
+}
 /* Al Mo'assis Learning Center - Global Styles */
 .sm-logo-img {
   display: none !important;

@@ -78,14 +78,14 @@ const Home: React.FC = () => {
             <div className="hero-actions reveal delay-500 flex flex-col sm:flex-row items-center space-y-5 sm:space-y-0 sm:space-x-8" ref={addToRefs}>
               <GradientButton
                 variant="primary"
-                onClick={() => window.location.href = '/contact'}
+                onClick={() => window.location.href = '/#/contact'}
                 icon={<ArrowRight />}
               >
                 Start Your Journey
               </GradientButton>
               <GradientButton
                 variant="secondary"
-                onClick={() => window.location.href = '/courses'}
+                onClick={() => window.location.href = '/#/courses'}
               >
                 Explore Method
               </GradientButton>
@@ -325,7 +325,7 @@ const Home: React.FC = () => {
           <div className="global-cta reveal flex flex-col sm:flex-row items-center justify-center gap-8" ref={addToRefs}>
             <GradientButton
               variant="gold"
-              onClick={() => window.location.href = '/contact'}
+              onClick={() => window.location.href = '/#/contact'}
               className="text-[#1B5E20] shadow-2xl"
             >
               Book Your Free Demo
