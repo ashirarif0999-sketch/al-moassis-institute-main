@@ -1,0 +1,8 @@
+{
+  "name": "Al Mo'assis Learning Center",
+  "description": "An online Qur'an institute dedicated to teaching Qur'an and Tajweed through a simple, effective, and loving method for all ages.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
