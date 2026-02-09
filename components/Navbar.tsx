@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="navbar-brand flex items-center group">
             <motion.img
               whileHover={{ scale: 1.05 }}
-              src="./logo/logo-inverted-removebg-preview.png"
+              src="/logo/logo-inverted-removebg-preview.png"
               alt="Al Mo'assis Logo"
               className="navbar-logo-image"
             />

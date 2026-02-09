@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="footer-brand col-span-1 md:col-span-1">
             <Link to="/" className="footer-logo-link flex items-center space-x-2 mb-6">
               <img 
-                src="./logo/logo-copy-removebg-preview.png" 
+                src="/logo/logo-copy-removebg-preview.png" 
                 alt="Al Mo'assis Logo" 
                 className="footer-logo-image"
               />
